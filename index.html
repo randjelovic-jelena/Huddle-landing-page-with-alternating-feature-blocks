@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Huddle landing page with alternating feature blocks">
+  <meta name="author" content="Jelena Randjelovic">
+  <meta name="keywords" content="Huddle, landing page, alternating feature blocks, frontend mentor">
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <!--Logo-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Css-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <!--HEADER-->
+  <header class="header">
+    <nav class="nav">
+      <img src="images/logo.svg" alt="huddle home page" class="logo logo-header"/>
+      <button type="button" aria-label="try it free" class="btn btn-small" id="try-free-btn">
+        Try It Free
+      </button>
+    </nav>
+    <div class="header-section grid">
+      <div class="header-section-content">
+        <h1 class="h1"> Build The Community Your Fans Will Love</h1>
+        <p class="main-text">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion. 
+        </p>
+        <button type="button" id="start-for-free-btn" class="btn btn-pink btn-medium" aria-label="start connecting with your users"/>
+        Get Started For Free
+        </button>
+      </div>
+      <!--header image-->
+      <div class="header-section-image"></div>
+    </div>
+  </header>
+
+  <!--MAIN CONTENT-->
+  <main class="main flex-center">
+
+    <section class="main-box grow-together grid">
+      <div class="main-box-text">
+        <h3 class="h3">Grow Together</h3>
+        <p class="text"> Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+      <div class="main-box-image"></div>
+    </section>
+
+    <section class="main-box flowing-conversation grid-reverse ">
+      <div class="main-box-image"></div>
+
+      <div class="main-box-text">
+        <h3 class="h3">Flowing Conversations</h3>
+        <p class="text">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.</p>
+      </div>
+    </section>
+
+    <section class="main-box your-users grid">
+      <div class="main-box-text">
+        <h3 class="h3">Your Users</h3>
+        <p class="text">  It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div class="main-box-image"></div>
+    </section>
+
+  </main>
+  <!--footer-->
+  <footer class="footer">
+    <div class="modal">
+      <h2 class="h2">Ready To Build Your Community?</h2>
+      <button type="button" id="get-started-btn-2" aria-label="build your community" class="btn btn-pink btn-big">
+        Get Started For Free
+      </button>
+    </div>
+    <div class="footer-nav">
+    
+      <nav class="nav-footer" aria-label="site navigation footer">
+        <ul class="list list-contact">
+          <li class="list-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="text-small"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua</p>
+          </li>
+          <li class="list-item">
+            <i class="fa-solid fa-phone-volume"></i>
+            <p class="text-small"> +1-543-123-4567</p>
+          </li>
+          <li class="list-item">
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <p class="text-small"> example@huddle.com</p>
+          </li>
+        </ul>
+        <ul class="list list-nav">
+          <li class="list-item">
+            <a href="#"class="text-small">About Us</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="text-small">What We Do</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="text-small">FAQ</a>
+          </li>
+        </ul>
+        <ul class="list list-nav">
+          <li class="list-item">
+            <a href="#" class="text-small">Career</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="text-small"> Blog</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="text-small">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="list social-list">
+          <li class="list-item">
+            <a href="#"aria-label='go to huddle facebook page'><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li class="list-item">
+            <a href="#"aria-label='go to huddle twitter page'><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="list-item">
+            <a href="#"aria-label='go to huddle instagram page'></a><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="copy-rights">
+      <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+    </div>
+  </footer>
+ 
+</body>
+</html>
